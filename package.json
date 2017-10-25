@@ -1,0 +1,23 @@
+{
+  "name": "geekbrains-nodejs",
+  "version": "1.0.0",
+  "description": "Nodejs project for learning on geekbrains.ru",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dm-khanin/geekbrains-nodejs.git"
+  },
+  "author": "Dmitry Khanin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dm-khanin/geekbrains-nodejs/issues"
+  },
+  "homepage": "https://github.com/dm-khanin/geekbrains-nodejs#readme",
+  "dependencies": {
+    "beepbeep": "^1.2.1",
+    "colors": "^1.1.2"
+  }
+}
