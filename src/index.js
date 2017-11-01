@@ -1,3 +1,11 @@
+import dotenv from 'dotenv';
 import news from './news';
+import translate from './translate';
 
-news();
+dotenv.config({
+    path: '../.env',
+});
+
+// news();
+translate();
+

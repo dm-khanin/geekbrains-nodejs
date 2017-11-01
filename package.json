@@ -21,6 +21,8 @@
     "axios": "^0.17.0",
     "babel-core": "^6.26.0",
     "babel-register": "^6.26.0",
+    "dotenv": "^4.0.0",
+    "hapi": "^16.6.2",
     "jquery": "^3.2.1",
     "jsdom": "^11.3.0",
     "pino": "^4.8.2"
