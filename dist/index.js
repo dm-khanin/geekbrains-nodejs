@@ -18,5 +18,5 @@ _dotenv2.default.config({
     path: '../.env'
 });
 
-// news();
+(0, _news2.default)();
 (0, _translate2.default)();

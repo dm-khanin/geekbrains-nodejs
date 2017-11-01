@@ -6,6 +6,6 @@ dotenv.config({
     path: '../.env',
 });
 
-// news();
+news();
 translate();
 
