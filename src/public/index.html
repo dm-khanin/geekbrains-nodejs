@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form action="/feed" method="post">
+    <label for="site">
+        Выберите новостной портал:
+        <select name="site" id="site">
+            <option value="https://habrahabr.ru/rss/interesting">Habrahabr</option>
+            <option value="https://lenta.ru/rss">Lenta.ru</option>
+        </select>
+    </label>
+    <br>
+    <label for="format">
+        Выберите удобный формат вывода новостей:
+        <select name="format" id="format">
+            <option value="txt">TXT-файл</option>
+            <option value="html">HTML-файл</option>
+        </select>
+    </label>
+    <br>
+    <label for="format">
+        Выберите количество новостных блоков для показа:
+        <input type="number" id="count" name="count" min="1" value="5">
+    </label>
+    <br>
+    <input type="submit" value="Получить">
+</form>
+</body>
+</html>
