@@ -1,6 +1,5 @@
 import Logger from 'pino';
 import express from 'express';
-import consolidate from 'consolidate';
 import bodyParser from 'body-parser';
 import template from 'consolidate';
 import feed from 'rss-to-json';
